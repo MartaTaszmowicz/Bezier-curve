@@ -257,6 +257,7 @@ namespace RysowanieKrzywejBeziera
         {
             if (buffer != null)
             {
+                buffer.Dispose();
                 buffer = new Bitmap(this.ClientSize.Width, this.ClientSize.Height);
                 RedrawCurve();
             }
