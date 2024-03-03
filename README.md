@@ -9,4 +9,4 @@ Features:
 
 - Curve length calculation: The application includes a function for calculating the length of a Bézier curve, allowing the user to accurately determine the length of the selected curve.
 
-  
+  .Net / WinForm
