@@ -255,8 +255,11 @@ namespace RysowanieKrzywejBeziera
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            buffer = new Bitmap(this.ClientSize.Width, this.ClientSize.Height);
-            RedrawCurve();
+            if (buffer != null)
+            {
+                buffer = new Bitmap(this.ClientSize.Width, this.ClientSize.Height);
+                RedrawCurve();
+            }
         }
     }
 }
